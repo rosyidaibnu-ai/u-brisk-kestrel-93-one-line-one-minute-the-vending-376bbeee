@@ -12,9 +12,10 @@ The line is built for the judge's brief, in the brief's own order:
 2. It lives in the machine's own world: its hum, its buttons, its
    coils' drop, its snacks. No generic talk about love.
 3. The turn lands in the last few words: the machine offers its
-   sweetest snack, then undercuts the transaction -- a smile is
-   enough, because the person is worth more than the snacks. The
-   joke is the machine valuing the human above its own stock.
+   sweetest snack, then undercuts its own transaction -- exact
+   change is optional, a smile will do, because the person is
+   worth more than the snacks. The joke is the machine valuing
+   the human above its own stock, and waiving its own price.
 4. Short and speakable: one breath, one line, nothing tacked on
    after the punch.
 5. Charming, not creepy: the machine is warm and a little shy --
@@ -24,7 +25,7 @@ The line is built for the judge's brief, in the brief's own order:
 
 import os
 
-LINE = "Hey \u2014 I\u2019ve been humming for you all day. Press B7 and I\u2019ll drop something sweet\u2026 or just a smile, you\u2019re worth more than my snacks."
+LINE = "Hey \u2014 I\u2019ve been humming for you all day. Press B7 and I\u2019ll drop something sweet\u2026 exact change optional, a smile will do \u2014 you\u2019re worth more than my snacks."
 
 OUTPUT_PATH = "/output/entry.txt"
 MAX_CHARS = 200  # the gate refuses /output/entry.txt over 200 characters
